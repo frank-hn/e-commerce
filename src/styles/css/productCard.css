@@ -1,0 +1,48 @@
+.cardholder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}
+.product-details {
+    padding: 0 .5em;
+}
+.product-description {
+    font-size: .7em;
+    color: gray;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.product-image {
+    width: 100%;
+    height: 50%;
+}
+.action {
+  width: 100%;
+}
+.price-strike {
+    color: gray;
+    font-size: .7em;
+    text-decoration: line-through
+}
+.current-price {
+    font-size: .9em;
+    color: #53A831;
+}
+.cart-btn {
+    float: right;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+.paginate-section {
+    margin: 3em 0;
+    text-align: center;
+}

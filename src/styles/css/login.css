@@ -1,0 +1,44 @@
+.login-section {
+    width: 30%;
+    margin: 0 35%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.login-inputs {
+  width: 100%;
+    padding: 6px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: large;
+}
+
+.login-btn {
+  background-color: #4CAF50;
+    color: white;
+    padding: 3px 9px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.login-btn:hover {
+  opacity: 0.8;
+}
+.login-title {
+    text-align: center;
+    margin: 3em 0;
+    font-size: 22px;
+    letter-spacing: 6px;
+}
+.login-form {
+    padding: 4%;
+}
+.create-account{
+    float: right;
+    margin-top: 11px;
+}
+@media screen and (max-width: 300px) {
+ 
+}
